@@ -1,4 +1,4 @@
-package com.debuggeando_ideas.lamdas;
+package com.debuggeando_ideas.lambdas;
 
 @FunctionalInterface
 public interface Printer<T> {
