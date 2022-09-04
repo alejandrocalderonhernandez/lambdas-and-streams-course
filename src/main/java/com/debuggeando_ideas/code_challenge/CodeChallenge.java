@@ -1,6 +1,4 @@
-package com.debuggeando_ideas.lambdas;
-
-import org.junit.jupiter.api.Test;
+package com.debuggeando_ideas.code_challenge;
 
 import java.util.Arrays;
 
