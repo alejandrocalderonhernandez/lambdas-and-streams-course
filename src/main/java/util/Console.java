@@ -5,5 +5,6 @@ public enum Console {
     PLAYSTATION,
     NINTENDO,
     PC,
-    ALL
+    ALL,
+    MOBILE
 }

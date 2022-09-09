@@ -180,6 +180,67 @@ public class Database {
                         .officialWebsite("www.mario.com")
                         .isDiscount(false)
                         .totalSold(4)
+                        .build(),
+                Videogame.builder()
+                        .name("COD black ops")
+                        .price(18.60)
+                        .console(Console.PLAYSTATION)
+                        .reviews(List.of(new Review("5 Stars", 5), new Review("5 Stars", 5)))
+                        .officialWebsite("www.cod.com")
+                        .isDiscount(false)
+                        .totalSold(900)
+                        .build(),
+                Videogame.builder()
+                        .name("COD black mobile")
+                        .price(0.0)
+                        .console(Console.MOBILE)
+                        .reviews(List.of(new Review("4 Stars", 4)))
+                        .officialWebsite("www.cod.com")
+                        .isDiscount(false)
+                        .totalSold(1200)
+                        .build(),
+                Videogame.builder()
+                        .name("Geometry dash")
+                        .price(1.0)
+                        .console(Console.MOBILE)
+                        .reviews(List.of(
+                                new Review("amazing", 5),
+                                new Review("funny", 4),
+                                new Review("ok", 5),
+                                new Review("amazing2", 5),
+                                new Review("funny2", 4),
+                                new Review("ok2", 5)))
+                        .officialWebsite("www.geometry.com")
+                        .isDiscount(true)
+                        .totalSold(2000)
+                        .build(),
+                Videogame.builder()
+                        .name("Candy crush")
+                        .price(0.0)
+                        .console(Console.MOBILE)
+                        .reviews(List.of(
+                                new Review("", 5),
+                                new Review("", 3),
+                                new Review("", 3),
+                                new Review("", 3),
+                                new Review("", 3),
+                                new Review("", 2)))
+                        .officialWebsite("www.candy-crush.com")
+                        .isDiscount(false)
+                        .totalSold(2200)
+                        .build(),
+                Videogame.builder()
+                        .name("Forza horizon 5")
+                        .price(50.06)
+                        .console(Console.XBOX)
+                        .reviews(List.of(
+                                new Review("Is the best", 5),
+                                new Review("Is the best but expensive", 4),
+                                new Review("Is the best x2", 5)
+                        ))
+                        .officialWebsite("www.forza.com")
+                        .isDiscount(false)
+                        .totalSold(74)
                         .build()
         );
     }
