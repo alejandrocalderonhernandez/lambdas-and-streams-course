@@ -12,7 +12,6 @@ public class StreamFinalOperatorsT {
     public static void main(String[] args) {
         Stream<Videogame> videogames = Database.videogames.stream();
 
-        minOperator(videogames);
     }
 
     static void countOperator(Stream<Videogame> stream) {
@@ -56,6 +55,15 @@ public class StreamFinalOperatorsT {
     static void minOperator(Stream<Videogame> stream) {
         Optional<Videogame> r = stream.min(Comparator.comparingInt(Videogame::getTotalSold));
         System.out.println(r);
+    }
+
+    static void reduceOperator(Stream<Videogame> stream) {
+        Optional<Integer> r = stream
+                .map(Videogame::getTotalSold)
+                .reduce(Integer::sum);
+
+        System.out.println(r.orElse(0));
+
     }
 
 }
