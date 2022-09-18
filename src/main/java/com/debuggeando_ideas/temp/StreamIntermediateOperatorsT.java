@@ -15,7 +15,7 @@ public class StreamIntermediateOperatorsT {
     public static void main(String[] args) {
         Stream<Videogame> videogames = Database.videogames.stream();
 
-        dropWhileOperator(videogames);
+        takeWhileOperator(videogames);
     }
 
     static void distinctOperator(Stream<Videogame> stream) {
