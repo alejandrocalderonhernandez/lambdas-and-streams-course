@@ -5,8 +5,8 @@ import util.Database;
 import util.Review;
 import util.Videogame;
 
+import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -15,11 +15,7 @@ public class StreamIntermediateOperators {
     public static void main(String[] args) {
         Stream<Videogame> videogames = Database.videogames.stream();
 
-        mapVSFlatMapOperator(videogames);
-    }
-
-    static void distinctOperator(Stream<Videogame> stream) {
-        System.out.println(stream.distinct().count());
+        dropWhileOperator(videogames);
     }
 
     static void limitOperator(Stream<Videogame> stream) {
@@ -72,5 +68,37 @@ public class StreamIntermediateOperators {
         System.out.println(totalReviews);
     }
 
-    //peek
+
+    static void peekOperator(Stream<Videogame> stream) {
+        stream.peek(v -> v.setName("")).forEach(System.out::println);
+    }
+
+    static void sortOperator(Stream<Videogame> stream) {
+        List<Videogame> listSorted = stream
+                .sorted(Comparator.comparingInt(v -> v.getReviews().size()))
+                .collect(Collectors.toList());
+
+        listSorted.forEach(System.out::println);
+    }
+
+    static void takeWhileOperator(Stream<Videogame> stream) {
+        List<Videogame> r = stream
+                .sorted(Comparator.comparing(Videogame::getName))
+                .takeWhile(v -> !v.getName().startsWith("M"))
+                .collect(Collectors.toList());
+
+        r.forEach(System.out::println);
+    }
+
+    static void dropWhileOperator(Stream<Videogame> stream) {
+        List<Videogame> r = stream
+                .sorted(Comparator.comparing(Videogame::getName))
+                .dropWhile(v -> !v.getName().startsWith("M"))
+                .collect(Collectors.toList());
+
+        r.forEach(System.out::println);
+    }
+
+
+
 }
