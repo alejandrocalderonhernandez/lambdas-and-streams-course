@@ -150,7 +150,7 @@ public class Database {
                         .totalSold(64)
                         .build(),
                 Videogame.builder()
-                        .name("Geometry dash")
+                        .name("Geometry dash pc")
                         .price(0.99)
                         .console(Console.PC)
                         .reviews(List.of(
