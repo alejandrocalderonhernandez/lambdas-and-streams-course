@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Review {
 
-    private String review;
+    private String comment;
     private Integer score;
 
 }
