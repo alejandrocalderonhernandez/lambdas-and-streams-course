@@ -9,15 +9,13 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Partitions {
-
+public class GroupBy {
     public static void main(String[] args) {
         Stream<Videogame> videogames = Database.videogames.stream();
 
-        Map<Boolean, List<Videogame>> byXboxOrPlaystation = videogames.collect(Collectors.partitioningBy(
-                v -> v.getPrice() > 15.0
-        ));
+        Map<Console, List<Videogame>> byConsole = videogames.collect(Collectors.groupingBy(Videogame::getConsole));
 
-        byXboxOrPlaystation.forEach((k, v) -> System.out.println(k + " - " + v));
+        byConsole.forEach((k, v) -> System.out.println(k + " - " + v));
     }
+
 }
