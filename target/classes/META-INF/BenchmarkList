@@ -1,2 +1,0 @@
-JMH S 50 com.debuggeando_ideas.temp.ParallelStreamBenchmark S 77 com.debuggeando_ideas.temp.jmh_generated.ParallelStreamBenchmark_init_jmhTest S 4 init S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
-JMH S 42 com.debuggeando_ideas.temp.StreamBenchmark S 69 com.debuggeando_ideas.temp.jmh_generated.StreamBenchmark_init_jmhTest S 4 init S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
