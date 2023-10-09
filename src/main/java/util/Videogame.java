@@ -27,25 +27,4 @@ public class Videogame {
             throw new RuntimeException("Cant write value as JSON");
         }
     }
-
-
-    /*public static void main(String[] args) {
-        var res = Database.videogames
-                .stream()
-                .collect(Collectors.groupingBy(videogame -> videogame.getConsole() == Console.XBOX,
-                        Collectors.summarizingInt(Videogame::getTotalSold)));
-
-        var res2 = Database.videogames
-                .stream()
-                .filter(v -> v.getIsDiscount())
-                .map(v -> v.getReviews().size())
-                .reduce(0, Integer::sum);
-
-        var res3 = Database.videogames
-                .stream()
-                .collect(Collectors.groupingBy(v -> v.getConsole()));
-        //System.out.println(res2);
-        //System.out.println(res.get(true));
-        System.out.println(res3.get(Console.ALL));
-    }*/
 }

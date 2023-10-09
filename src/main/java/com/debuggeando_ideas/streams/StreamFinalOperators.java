@@ -12,7 +12,7 @@ public class StreamFinalOperators {
     public static void main(String[] args) {
         Stream<Videogame> videogames = Database.videogames.stream();
 
-        minOperator(videogames);
+        forEachOperator(videogames);
     }
 
     static void countOperator(Stream<Videogame> stream) {

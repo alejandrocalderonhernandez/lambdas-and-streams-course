@@ -8,12 +8,13 @@ import java.util.stream.Collectors;
 public class GroupByIntro {
 
     public static void main(String[] args) {
-        System.out.println(
-                Database.videogames
+
+        Database.videogames
                         .stream()
                         .collect(
                                 Collectors.groupingBy(Videogame::getConsole,
                                 Collectors.summarizingDouble(Videogame::getPrice)))
-        );
+                .forEach((k,v) -> System.out.println(k + " - " + v.getAverage()));
+
     }
 }

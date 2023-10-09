@@ -1,0 +1,17 @@
+
+T
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(øØë8¼á¡²¦1
+T
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(íÒ£¥8»á¡²¦1
+Y
+java:S1128	"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8¼á¡²¦1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ºšÁ£ıÿÿÿÿ8Äá¡²¦1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(àË¿öûÿÿÿÿ8Äá¡²¦1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(–¥ìC8Æá¡²¦1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(òïÚÓûÿÿÿÿ8Çá¡²¦1
+U	java:S106""9Replace this use of System.out or System.err by a logger.(õİÑç8Çá¡²¦1
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ì€­‹úÿÿÿÿ8Èá¡²¦1
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(»–§º8Èá¡²¦1
+Q
+java:S6212("/Declare this local variable with "var" instead.(ˆô™ÿÿÿÿÿ8Éá¡²¦1
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(±¤ª¹8Éá¡²¦1

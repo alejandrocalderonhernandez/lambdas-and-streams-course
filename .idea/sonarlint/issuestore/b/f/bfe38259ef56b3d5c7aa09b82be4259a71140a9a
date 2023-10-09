@@ -1,0 +1,18 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Š™°üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Š™°üÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(Š™°üÿÿÿÿ
+i
+java:S1602+"SRemove useless curly braces around statement and then remove useless return keyword(“Ë’ì
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(åþ‡«
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(Å¸Þ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(ËÛÑ¢þÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ÿþ«Ä
+Q	java:S125B"<This block of commented-out lines of code should be removed.(à¸¬ï
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(å–ö¨
+<
+java:S3864I"!Remove this use of "Stream.peek".(ºëœ–úÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ºëœ–úÿÿÿÿ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(â€þ˜
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(Š™°üÿÿÿÿ
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(Š™°üÿÿÿÿ

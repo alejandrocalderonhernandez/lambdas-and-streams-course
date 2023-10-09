@@ -1,0 +1,32 @@
+
+E
+java:S1128"1Remove this unused import 'java.util.Comparator'.(ξΉσΉ
+P
+java:S1854"7Remove this useless assignment to local variable "sss".(Β›μ«ώÿÿÿÿ
+O
+java:S1854"6Remove this useless assignment to local variable "su".(――ϊÿÿÿÿ
+N
+java:S1854"5Remove this useless assignment to local variable "b".(¤πή‹ϊÿÿÿÿ
+N
+java:S1854"5Remove this useless assignment to local variable "p".(ΑΎÿÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(Αί‡ά
+k
+java:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ΑΎÿÿÿÿÿ
+u
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'ObjIntConsumer<String>'(¤πή‹ϊÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¤πή‹ϊÿÿÿÿ
+j
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(――ϊÿÿÿÿ
+t
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(Β›μ«ώÿÿÿÿ
+E
+java:S1612",Replace this lambda with a method reference.(Β›μ«ώÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ΏΨ®”ϊÿÿÿÿ
+?
+java:S1481"&Remove this unused "p" local variable.(ΑΎÿÿÿÿÿ
+?
+java:S1481"&Remove this unused "b" local variable.(¤πή‹ϊÿÿÿÿ
+@
+java:S1481"'Remove this unused "su" local variable.(――ϊÿÿÿÿ
+A
+java:S1481"(Remove this unused "sss" local variable.(Β›μ«ώÿÿÿÿ

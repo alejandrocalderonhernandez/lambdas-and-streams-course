@@ -1,0 +1,12 @@
+
+g
+java:S2259"SA "NullPointerException" could be thrown; "getConsolesPricesAvg()" can return null.(ÛÙ‘Â
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÙ‘Â
+F
+java:S1172"-Remove this unused method parameter "stream".(ºËâ’ûÿÿÿÿ
+?
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+F
+java:S1172"-Remove this unused method parameter "stream".(Ùı¢×úÿÿÿÿ
+F
+java:S1172"-Remove this unused method parameter "stream".(­°Ôµşÿÿÿÿ

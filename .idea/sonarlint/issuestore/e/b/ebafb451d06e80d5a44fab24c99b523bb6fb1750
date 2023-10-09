@@ -1,0 +1,17 @@
+
+F
+java:S1444"0Make this "public static videogames" field final(èãÂª
+j
+java:S1192"ODefine a constant instead of duplicating this literal "Is the best x2" 3 times.(²˜’¾şÿÿÿÿ
+d
+java:S1192"NDefine a constant instead of duplicating this literal "www.forza.com" 4 times.(¹›ĞÎ
+i
+java:S1192"MDefine a constant instead of duplicating this literal "some comment" 4 times.(…°‘Àûÿÿÿÿ
+g
+java:S1192"LDefine a constant instead of duplicating this literal "Is the best" 6 times.(¿¸¦½ıÿÿÿÿ
+j
+java:S1192”"NDefine a constant instead of duplicating this literal "www.mario.com" 3 times.(äÓ¡•ùÿÿÿÿ
+l
+java:S1104"VMake videogames a static final constant or non-public and provide accessors if needed.(èãÂª
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ñ°Ù®şÿÿÿÿ

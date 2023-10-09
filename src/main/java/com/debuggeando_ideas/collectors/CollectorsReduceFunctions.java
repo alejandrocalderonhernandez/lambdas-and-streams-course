@@ -1,17 +1,25 @@
 package com.debuggeando_ideas.collectors;
 
 import util.Database;
+import util.Review;
 import util.Videogame;
 
-import java.util.IntSummaryStatistics;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class CollectorsReduceFunctions {
 
     public static void main(String[] args) {
-        Stream<Videogame> videogames = Database.videogames.stream();
-        join(videogames);
+        Optional<Videogame> gtaOpt = Optional.of(Database.videogames.get(5));
+
+        String webSites = gtaOpt.map(Videogame::getOfficialWebsite).get();
+        List<Review> revies =  gtaOpt.flatMap(videogame -> Optional.of(List.of(videogame.getReviews().get(0)))).get();
+
+        System.out.println(revies);
+
+        System.out.println(webSites);
     }
 
     static void avg(Stream<Videogame> stream) {
